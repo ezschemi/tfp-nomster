@@ -1,0 +1,133 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url("https://fonts.googleapis.com/css?family=Vesper+Libre");
+@import url("https://fonts.googleapis.com/css?family=Lora:700");
+
+
+.clear {
+  clear: both;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("/assets/sos.png");
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+
+.navbar.navbar-inverse {
+  background: url("/assets/pw_maze_black.png");
+  border-radius: 0;
+  box-shadow: 0px 1px 3px #4a4a4a;
+  margin-bottom: 0;
+}
+.navbar-inverse .navbar-brand {
+  color: #F5982F;
+  font-family: "Lora", serif;
+} 
+
+
+.field_with_errors {
+  color: #ff3333;
+  background-color: #ffeeee;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+#map {
+  height: 300px;
+}
+
+.caption {
+  padding: 15px;
+  text-align: center;
+}
+
+div.img {
+  border: 1px solid #ccc;
+}
+div.img:hover {
+  border: 1px solid #777;
+}
+
+div.img img {
+  width: 100%;
+  height: auto;
+}
+
+* { 
+  box-sizing: border-box;
+}
+
+.responsive_image {
+  padding: 0 6px;
+  float: left;
+  width: 24.9999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive_image {
+    width: 49.9999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive_image {
+    width: 100%;
+  }
+}
+
+
+.carousel {
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  max-height: 550px; 
+  width: 100%;
+}
+
+.carousel-caption {
+  font-family: "Lora", serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.9) 2px 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: absolute;
+  left: 0;
+} 

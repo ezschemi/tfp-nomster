@@ -1,0 +1,4 @@
+
+bundle exec rails runner "eval(File.read 'places_dummy_add.rb')"
+add the script to git and commit and push
+heroku run rails runner places_dummy_add.rb
